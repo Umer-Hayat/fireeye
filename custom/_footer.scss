@@ -1,0 +1,100 @@
+/*=============================================
+=            Footer Area Code            =
+=============================================*/
+
+.footer {
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  .content {
+    padding-bottom: 30px;
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        padding: 5px 0;
+        font-size: 13px;
+      }
+    }
+  }
+  .subscribe {
+    padding-right: 10px;
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+      padding-bottom: 40px;
+    }
+    input {
+      width: 100%;
+      padding: 15px;
+      border: 1px solid #c2c2c2;
+    }
+    input:focus {
+      border: 1px solid #c2c2c2;
+      outline: none;
+    }
+    button {
+      margin-top: 15px;
+      background-color: black;
+      color: white;
+      width: 100%;
+      padding: 13px 0;
+    }
+    .icons {
+      text-align: center;
+      a {
+        text-decoration: none;
+      }
+      .fa {
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px 9px;
+        border-radius: 100%;
+      }
+      .fa-instagram {
+        background-color: #ea2c59;
+      }
+      .fa-facebook {
+        background-color: #3b5998;
+        padding: 10px 11px;
+      }
+      .fa-linkedin {
+        background-color: #007bb6;
+      }
+      .fa-youtube-play {
+        background-color: #a82400;
+      }
+    }
+  }
+  .footer-img {
+    img {
+      width: 70%;
+    }
+  }
+  .copyright {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+}
+
+/*=============================================
+=            media Query Code            =
+=============================================*/
+
+@media only screen and (max-width: 650px) {
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+}
+
+/* Media Quries IPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}

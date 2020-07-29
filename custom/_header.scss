@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap");
+$color: #074582;
+$color2: #2e3192;
+$family: "Montserrat", sans-serif;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*=============================================
+=            header Area Code            =
+=============================================*/
+
+header {
+  background-color: black;
+  padding-bottom: 3px;
+
+  .logo {
+    width: 80%;
+    margin-top: 5px;
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+
+  .dropdown-item:hover {
+    background-color: $color;
+    color: white !important;
+    margin-left: 4px;
+  }
+
+  /*=============================================
+=            Media  Querie s Area            =
+=============================================*/
+
+  nav {
+    transition: 200ms ease;
+    // padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    a {
+      color: white !important;
+      font-family: $family;
+      font-weight: 600;
+      font-size: 13px;
+      padding-bottom: 15px !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    a:hover {
+      // padding-bottom: 2px;
+      margin-bottom: -3px;
+      border-bottom: 4px solid yellow;
+    }
+
+    li {
+      margin-right: 30px;
+    }
+  }
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+.whatsapp-img {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 4%;
+  z-index: 1000;
+}
+/*=============================================
+=            media Query Code            =
+=============================================*/
+
+@media only screen and (max-width: 650px) {
+  header {
+    .logo {
+      width: 50%;
+      margin-top: 20px;
+      position: relative;
+    }
+    .navbar-toggler {
+      position: absolute;
+      right: 0;
+      top: -50px;
+    }
+  }
+  .whatsapp-img {
+    width: 15%;
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  header {
+    .navbar-toggler {
+      position: absolute;
+      right: 0px;
+      top: -3px;
+    }
+    .navbar-collapse {
+      .navbar-nav {
+        margin-top: 25px !important;
+      }
+    }
+  }
+}
+
+/* Media Quries IPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}

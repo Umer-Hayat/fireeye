@@ -1,0 +1,37 @@
+/*=============================================
+=            Header Area Code            =
+=============================================*/
+
+@import "_header.scss";
+/*=============================================
+=            body Area Code            =
+=============================================*/
+
+.b1 {
+  background-image: url("img/body1.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100 100;
+  height: 300px;
+}
+
+/*=============================================
+=            media Query Code            =
+=============================================*/
+
+@media only screen and (max-width: 650px) {
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+}
+
+/* Media Quries IPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/*=============================================
+=            Footer Area Code            =
+=============================================*/
+
+@import "_footer.scss";

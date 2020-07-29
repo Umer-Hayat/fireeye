@@ -1,0 +1,240 @@
+/*=============================================
+=            Header Area Code            =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*=============================================
+=            header Area Code            =
+=============================================*/
+header {
+  background-color: black;
+  padding-bottom: 3px;
+  /*=============================================
+=            Media  Querie s Area            =
+=============================================*/
+}
+
+header .logo {
+  width: 80%;
+  margin-top: 5px;
+}
+
+header .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+header .dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+header .dropdown-item:hover {
+  background-color: #074582;
+  color: white !important;
+  margin-left: 4px;
+}
+
+header nav {
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+  padding-bottom: 0 !important;
+}
+
+header nav a {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 15px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+header nav a:hover {
+  margin-bottom: -3px;
+  border-bottom: 4px solid yellow;
+}
+
+header nav li {
+  margin-right: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.whatsapp-img {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 4%;
+  z-index: 1000;
+}
+
+/*=============================================
+=            media Query Code            =
+=============================================*/
+@media only screen and (max-width: 650px) {
+  header .logo {
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+  }
+  header .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: -50px;
+  }
+  .whatsapp-img {
+    width: 15%;
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  header .navbar-toggler {
+    position: absolute;
+    right: 0px;
+    top: -3px;
+  }
+  header .navbar-collapse .navbar-nav {
+    margin-top: 25px !important;
+  }
+}
+
+/* Media Quries IPad Pro */
+/*=============================================
+=            body Area Code            =
+=============================================*/
+.b1 {
+  background-image: url("img/body1.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100 100;
+  height: 300px;
+}
+
+/*=============================================
+=            media Query Code            =
+=============================================*/
+/* Meida Quries IPad */
+/* Media Quries IPad Pro */
+/*=============================================
+=            Footer Area Code            =
+=============================================*/
+/*=============================================
+=            Footer Area Code            =
+=============================================*/
+.footer {
+  background-color: #f7f7f7;
+  padding-top: 50px;
+}
+
+.footer .content {
+  padding-bottom: 30px;
+}
+
+.footer .content h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .content ul li {
+  padding: 5px 0;
+  font-size: 13px;
+}
+
+.footer .subscribe {
+  padding-right: 10px;
+}
+
+.footer .subscribe h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.footer .subscribe input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #c2c2c2;
+}
+
+.footer .subscribe input:focus {
+  border: 1px solid #c2c2c2;
+  outline: none;
+}
+
+.footer .subscribe button {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 13px 0;
+}
+
+.footer .subscribe .icons {
+  text-align: center;
+}
+
+.footer .subscribe .icons a {
+  text-decoration: none;
+}
+
+.footer .subscribe .icons .fa {
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 9px;
+  border-radius: 100%;
+}
+
+.footer .subscribe .icons .fa-instagram {
+  background-color: #ea2c59;
+}
+
+.footer .subscribe .icons .fa-facebook {
+  background-color: #3b5998;
+  padding: 10px 11px;
+}
+
+.footer .subscribe .icons .fa-linkedin {
+  background-color: #007bb6;
+}
+
+.footer .subscribe .icons .fa-youtube-play {
+  background-color: #a82400;
+}
+
+.footer .footer-img img {
+  width: 70%;
+}
+
+.footer .copyright {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+/*=============================================
+=            media Query Code            =
+=============================================*/
+/* Meida Quries IPad */
+/* Media Quries IPad Pro */
+/*# sourceMappingURL=style.css.map */
