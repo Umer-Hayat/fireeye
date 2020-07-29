@@ -6,13 +6,17 @@
 /*=============================================
 =            body Area Code            =
 =============================================*/
-
+@mixin background-img($url) {
+  background-image: $url;
+  background-position: center center;
+  background-size: 100% 100%;
+}
 .b1 {
-  background-image: url("img/body1.jpg");
-  background-repeat: no-repeat;
-  background-position: cover;
-  background-size: 100 100;
-  height: 300px;
+  // @include background-img("../img/body1.jpg");
+  background-image: "../img/body1.jpg";
+  background-position: center center;
+  background-size: 100% 100%;
+  // height: 300px;
 }
 
 /*=============================================
